@@ -1,3 +1,6 @@
+// to handle the scenario where we need to evaluate multiple mathematical 
+//expressions using a public Web API that has rate limits like 50 requests per second per client as provided in question
+//and the need to evaluate at least 500 expressions per second, we can implement a multi-threaded approach with rate limiting.
 
 public class webApi {
     public static void main(String[] args) {
